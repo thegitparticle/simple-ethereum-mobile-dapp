@@ -9,12 +9,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@ethersproject/shims": "^5.7.0",
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@walletconnect/jsonrpc-types": "^1.0.2",
+    "@walletconnect/react-native-compat": "^2.1.5",
+    "@walletconnect/sign-client": "^2.1.5",
+    "@walletconnect/types": "^2.1.5",
+    "@web3modal/ethereum": "^2.0.0-rc.1",
+    "assert": "^2.0.0",
+    "ethers": "^5.7.2",
     "expo": "~47.0.9",
+    "expo-crypto-polyfills": "^1.1.0",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
-    "react-native-web": "~0.18.9"
+    "react-native-get-random-values": "^1.8.0",
+    "react-native-web": "~0.18.9",
+    "url": "^0.11.0",
+    "wagmi": "^0.10.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
